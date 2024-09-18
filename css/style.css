@@ -1,0 +1,130 @@
+
+.jumbotron h1{
+font-size: 60px;
+}
+
+.jumbotron p{
+font-size: 30px ;
+}
+
+.mainColor{
+background-color: rgb(63, 11, 234);
+color: white;
+}
+
+.mainColor:hover{
+background-color: rgb(64, 16, 109);
+color: white;
+}
+
+.banner{
+background: url(../images/headerimg.jpg);
+padding-top: 140px;
+padding-bottom: 140px;
+
+}
+
+.titleAnim{
+position: relative;
+animation-name: myAnim;
+animation-duration: 2s;
+}
+
+
+@keyframes myAnim{
+    0% {opacity: 0.1; top: -100px;}
+   100% {opacity: 1.0; top: 0px;}
+}
+
+
+.features i{
+color: rgb(18, 121, 218);
+font-size: 50px;
+padding: 30px;
+margin: 40px 40px 20px 40px;
+border: 1px solid;
+border-color: rgb(187, 200, 230);
+width: 120px;
+height: 120px;
+border-radius: 100px;
+}
+
+.features i:hover{
+color: white;
+background-color: rgb(10, 112, 202);
+}
+
+.features p{
+font-weight: bold;
+color: black;
+}
+
+.Top h1{
+padding-top:50px;
+padding-bottom: 30px;
+color: rgb(18, 121, 218);
+}
+
+.testimonysection{
+background-color: rgb(221, 216, 216);
+}
+
+.testimonysection .p-6{
+    padding: 100px;
+}
+
+.cta{
+background-color: rgb(189, 188, 188);
+
+}
+
+
+.footer{
+background-color:black;
+}
+
+.footer .nav-link{
+background-color: rgb(16, 16, 19);
+color: white;
+margin-top: 2px;
+border-radius: 5px;
+}
+
+.footer .nav-link:hover{
+background-color: rgb(18, 121, 218);
+}
+
+.recentcourses .left{
+background-color: rgb(16, 16, 19);
+border-right: 5px solid rgb(18, 121, 218);
+}
+
+.recentcourses .left:hover{
+background-color:rgb(18, 121, 218);
+color: white;
+}
+
+.recentcourses .left:hover .bottom{
+color: white;
+ }
+
+.recentcourses .bottom{
+color: rgb(203, 197, 197);
+}
+
+.recentcourses .top{
+border-bottom: 1px solid gray;
+}
+
+
+.copyrightbar{
+background-color: rgb(16, 16, 19);
+border-top: 1px solid rgb(104, 100, 100);
+}
+
+
+.courses img:hover{
+opacity: 0.6;
+transform: translate(0px, -8px);
+transition: transform 0.2s, opacity 0.2s;
+}
